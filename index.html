@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- goole font styling -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"
+  <!-- adding bootstrap link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- fontawesome styling -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+  <!-- styles.css link -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- adding javascrip link for bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body class = "">
+  <section class = "section-one container">
+    <div class = "logo-and-button">
+      <!-- to insert svg element, use object type -->
+      <object type="image/svg+xml" data="images/logo.svg"></object>
+      <button type="button" class="btn btn-sm try-it-free-button">Try it free</button>
+    </div>
+    <div class = "intro-styling">
+      <h1 class = "heading">Build The Community Your Fans Will Love</h1>
+      <div class = "heading-text">
+        Huddle re-imagines the way we build communities. You have a voice, but so does
+        your audience. Create connections with your users as you engage in genuine discussion.
+      </div>
+      <button type="button" class="btn btn-lg get-stared-for-free-button">Get Started For Free</button>
+    </div>
+    <object type="image/svg+xml" data="images/screen-mockups.svg"></object>
+    <!-- we could use bootstrap flexbox for this -->
+    <div class =" flexbox-items">
+      <!-- d-flex justify-content-around -->
+      <div>
+        <object type="image/svg+xml" data="images/Icon-communities.svg"></object>
+        <div class = "stats">1.4k+</div>
+        <div class = "stats-text">Communities Formed</div>
+      </div>
+      <div class = "stats2">
+        <object type="image/svg+xml" data="images/Icon-messages.svg"></object>
+        <div class = "stats">2.7m+</div>
+        <div class = "stats-text">Messages Sent</div>
+      </div>
+    </div>
+  </section>
+
+  <object type="image/svg+xml" data="images/bg-section-top-desktop-1.svg" class = "top-desktop-image"></object>
+  <section class = "section-two ">
+    <div class = "section-two-div">
+      <h2 class = "heading">Grow Together</h2>
+      <div class = "section-text">
+      Generate meaningful discussions with your audience and build a strong, loyal community.
+      Think of the insightful conversations you miss out on with a feedback form.</div>
+    </div>
+    <object type="image/svg+xml" data="images/illustration-grow-together.svg" class = "section-two-svg"></object>
+  </section>
+  <object type="image/svg+xml" data="images/bg-section-bottom-desktop-1.svg"></object>
+
+  <section class = "section-three">
+  
+    <div class = " section-three-div">
+      <h2 class = "heading">Flowing Conversations</h2>
+      <div class = "section-three-text">
+        You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+        just-in-time loading for a more natural flow.
+      </div>
+    </div>
+    <object type="image/svg+xml" data="images/illustration-flowing-conversation.svg"></object>
+  </section>
+  <object type="image/svg+xml" data="images/bg-section-top-desktop-2.svg" class = "top-desktop-image"></object>
+  <section class ="section-four section-two">
+      <div class = "section-two-div section-four-div">
+      <h2 class = "heading">Your Users</h2>
+      <div class = "section-text">It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+      once signed in to your app, your users can start chatting immediately.</div>
+      </div>
+      <object type="image/svg+xml" data="images/illustration-your-users.svg" class = "section-two-svg"></object>
+  </section>
+  <object type="image/svg+xml" data="images/bg-section-bottom-desktop-2.svg" ></object>
+  <section class = "section-five container">
+    <h2 class = "heading">Ready To Build Your Community?</h2>
+    <button type="button" class="btn btn-lg get-stared-for-free-button ">Get Started For Free</button>
+  </section>
+  <object type="image/svg+xml" data="images/bg-footer-top-desktop.svg" class = "top-desktop-image"></object>
+  <footer>
+    <div class = "stub2">
+      <div class = "footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+      vestibulum a, ultrices quis sem.</div>
+      <div class = "phone-number">
+        <object type="image/svg+xml" data="images/icon-phone.svg" class = ""></object>
+        Phone: +1-543-123-4567
+      </div>
+      <div>
+        <object type="image/svg+xml" data="images/icon-email.svg" class = ""></object>
+        example@huddle.com
+
+      <div class = "font-icon">
+      <i class="fab fa-facebook-square fa-2x"></i>
+      <i class="fab fa-instagram fa-2x"></i>
+      <i class="fab fa-twitter-square fa-2x"></i>
+
+    </div>
+    <div class = "stub">
+      <h4>NewsLetter</h4>
+      <div class = "news-text">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+      send you spam or pass on your email address</div>
+      <input type="text" class = "textarea">
+      <button type = "button">Subscribe</button>
+
+    </div>
+    <div class = "author">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/mena-agina-49b210172/">Mena Agina</a>.</div>
+  </footer>
+</body>
+</html>

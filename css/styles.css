@@ -1,0 +1,247 @@
+body{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  width:100vw;
+}
+
+
+/* section one styling */
+.section-one{
+  margin-bottom: 100px;
+  width:1035px;
+}
+.section-one object{
+
+}
+.heading{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+}
+
+.heading-text{
+  width:450px;
+  /* since the text has a width, we can set top and bottom
+  to 0px and left and right auto */
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top:28px;
+}
+.try-it-free-button{
+  border-radius: 20px;
+  background-color: white;
+  border:2px solid hsl(321, 100%, 78%);
+  color:hsl(321, 100%, 78%);
+}
+
+.logo-and-button{
+  margin-top:40px;
+  display: flex;
+  justify-content: space-between;
+}
+.intro-styling{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+.get-stared-for-free-button{
+  border-radius: 100px;
+  background-color: hsl(322, 100%, 66%);
+  color : white;
+  font-size: 16px;
+  font-weight: 700px;
+  width:299.992px;
+  padding-top:20px;
+  padding-bottom :20px;
+}
+
+.flexbox-items{
+  margin-top:100px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.stats{
+  color: hsl(192, 100%, 9%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+}
+.stats-text{
+  font-weight: 400;
+}
+
+/* section two syling */
+.section-two{
+  background-color: hsl(207, 100%, 98%);
+  height:1000px;
+  position: relative;
+  padding-left:100px;
+  padding-right: 100px;
+
+}
+.top-desktop-image{
+  position: relative;
+  top:8px;
+}
+.section-text{
+  width: 470px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.section-two-svg{
+  float:right;
+
+}
+.section-two-div{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* section three styling */
+.section-three{
+  margin-top:100px;
+  height:1000px;
+  position: relative;
+  padding-left:100px;
+  padding-right: 100px;
+}
+.section-three-div{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right:30px;
+}
+.section-three-text{
+  width: 410px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+/* section-four styling*/
+.section-four-div{
+  margin-right:50px;
+}
+
+/*section-five syling*/
+.section-five{
+  text-align: center;
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+.section-five button{
+  margin-top:30px;
+}
+
+footer{
+  background-color: hsl(192, 100%, 9%);
+  height:500px;
+  color:white;
+  font-size: 13px;
+
+}
+.footer-text{
+  width:250px;
+}
+.phone-number{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+footer object{
+  margin-right:10px;
+}
+i{
+  margin-top:50px;
+  margin-right:10px;
+}
+.stub{
+  bottom:150px;
+  position: relative;
+  left:1000px;
+}
+.stub2{
+  position: relative;
+  left: 200px;
+}
+
+h4{
+  font-weight: bold;
+}
+.news-text{
+  width:300px;
+}
+input{
+  height: 30px;
+  width:200px;
+  margin-top:20px;
+}
+button{
+  background-color:hsl(322, 100%, 66%);
+  color:white;
+  margin-top:20px;
+}
+/* if the screen size is 1707px or smaller apply this style */
+@media only screen and (max-width:463px){
+  .stats2{
+    margin-top:40px;
+  }
+  .stub{
+    margin-top:200px;
+  }
+  .stub2, .stub{
+    left: 0;
+  }
+  footer{
+    text-align: center;
+  }
+  .footer-text, .news-text{
+    margin:0 auto;
+  }
+  .author{
+    position: relative;
+    bottom:100px;
+  }
+}
+@media only screen and (max-width: 1707px){
+  body{
+    text-align: center;
+  }
+  .section-one{
+    text-align: center;
+  }
+  .flexbox-items{
+    text-align: center;
+    display: block;
+  }
+  /* .stats2{
+    margin-top:40px;
+  }
+  .stub{
+    margin-top:200px;
+  }
+  .stub2, .stub{
+    left: 0;
+  }
+  footer{
+    text-align: center;
+  }
+  .footer-text, .news-text{
+    margin:0 auto;
+  }
+  .author{
+    position: relative;
+    bottom:100px;
+  } */
+  .section-two-div, .section-three-div{
+    position:static;
+  }
+  .section-text, .section-three-text{
+    margin : 0 auto;
+    margin-top: 15px;
+  }
+}
